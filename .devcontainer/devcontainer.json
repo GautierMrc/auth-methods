@@ -1,0 +1,17 @@
+{
+  "name": "Symfony App",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/var/www/html",
+  "forwardPorts": [80, 443, 8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "ms-azuretools.vscode-docker",
+        "mikestead.dotenv"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
